@@ -1,5 +1,6 @@
 problem1 <- function(filename=NULL, fcnobj=NULL, LRrange=NULL, nsample=NULL, compile=NULL){
-  outputexfile = paste('./', filename, '.tex', sep='')
+  outputtexfile = paste(filename, '.tex', sep='')
+  require(tikzDevice)
   tikz(outputtexfile,standAlone=TRUE)
   xbeg=LRrange[1]
   xend=LRrange[2]
