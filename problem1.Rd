@@ -4,13 +4,13 @@
 
 \description{ This generates a .tex and .pdf file for the graph of the specified function over the specified domain}
 \usage{
-problem1(filename, fcnname, range, nsample, compile)
+problem1(filename, fcnobj, LRrange, nsample, compile)
 }
 
 \arguments{
 \item{filename}{character vector containing output filename}
-\item{fcnname}{function object to be plotted}
-\item{range}{numeric vector that has two values, first value is smaller than second value}
+\item{fcnobj}{function object to be plotted}
+\item{LRrange}{numeric vector that has two values, first value is smaller than second value}
 \item{nsample}{number of points to be evaluated}
 \item{compile}{logical value specifiying whether PDF is to be produced}
 
@@ -18,7 +18,7 @@ problem1(filename, fcnname, range, nsample, compile)
 \details{}
 
 \value{ nothing returned}
-}
+
 
 \references{}
 
@@ -27,8 +27,8 @@ problem1(filename, fcnname, range, nsample, compile)
 
 \seealso{}
 \examples{
-problem1('demo',c(-5,5), 100, T)
-problem1('pois',dpois,c(0,20), 300, T)
+%problem1('demo',c(-5,5), 100, T)
+%problem1('pois',dpois,c(0,20), 300, T)
 
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
