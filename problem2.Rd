@@ -15,7 +15,7 @@ data{problem2}
   \item{\code{Silver}}{Great!}
 }
 }
-\details{}
+\details{Data is provided in csv form}
 \source{\url{http://www.guardian.co.uk/newd/datablog/2010/feb/11/winter-olympics-medals-by-country}}}
 \examples{
 data(problem2)

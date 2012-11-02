@@ -31,7 +31,4 @@ problem1('demo',dnorm,c(-5,5), 100, T)
 problem1('demo',dpois,c(0,20), 300, T)
 
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+
