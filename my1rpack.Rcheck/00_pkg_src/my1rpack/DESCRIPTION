@@ -1,0 +1,10 @@
+Package: my1rpack
+Type: Package
+Title: 550.400 HW2
+Version: 1.0
+Date: 2012-10-24
+Author: Joyce Tan 
+Maintainer: Joyce Tan <jtan21@jhu.edu>
+Description: Homework 2
+License: GPL-3
+Packaged: 2012-11-02 05:04:58 UTC; home

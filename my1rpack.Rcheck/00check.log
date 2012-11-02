@@ -1,0 +1,100 @@
+* using log directory 'C:/Users/home/Documents/JOHNS HOPKINS!/2012/MODELLING/jtan2110242012.git/my1rpack.Rcheck'
+* using R version 2.15.1 (2012-06-22)
+* using platform: x86_64-pc-mingw32 (64-bit)
+* using session charset: ISO8859-1
+* checking for file 'my1rpack/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'my1rpack' version '1.0'
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for .dll and .exe files ... OK
+* checking whether package 'my1rpack' can be installed ... WARNING
+Found the following significant warnings:
+  Warning: C:/Users/home/Documents/JOHNS HOPKINS!/2012/MODELLING/jtan2110242012.git/my1rpack.Rcheck/00_pkg_src/my1rpack/man/problem1.Rd:21: unexpected '}'
+  Warning: C:/Users/home/Documents/JOHNS HOPKINS!/2012/MODELLING/jtan2110242012.git/my1rpack.Rcheck/00_pkg_src/my1rpack/man/problem2.Rd:19: unexpected '}'
+See 'C:/Users/home/Documents/JOHNS HOPKINS!/2012/MODELLING/jtan2110242012.git/my1rpack.Rcheck/00install.out' for details.
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking for portable file names ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking for unstated dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+problem1: no visible global function definition for 'tikz'
+problem1: no visible binding for global variable 'outputtexfile'
+* checking Rd files ... WARNING
+prepare_Rd: my1rpack.Rd:15: Dropping empty section \examples
+prepare_Rd: problem1.Rd:21: unexpected '}'
+prepare_Rd: problem1.Rd:18: Dropping empty section \details
+prepare_Rd: problem1.Rd:23: Dropping empty section \references
+prepare_Rd: problem1.Rd:28: Dropping empty section \seealso
+prepare_Rd: problem2.Rd:19: unexpected '}'
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... WARNING
+Undocumented data sets:
+  'output'
+All user-level objects in a package should have documentation entries.
+See the chapter 'Writing R documentation files' in the 'Writing R
+Extensions' manual.
+* checking for code/documentation mismatches ... WARNING
+Codoc mismatches from documentation object 'problem1':
+problem1
+  Code: function(filename = NULL, fcnobj = NULL, LRrange = NULL,
+                 nsample = NULL, compile = NULL)
+  Docs: function(filename, fcnname, range, nsample, compile)
+  Argument names in code not in docs:
+    fcnobj LRrange
+  Argument names in docs not in code:
+    fcnname range
+  Mismatches in argument names:
+    Position: 2 Code: fcnobj Docs: fcnname
+    Position: 3 Code: LRrange Docs: range
+  Mismatches in argument default values:
+    Name: 'filename' Code: NULL Docs: 
+    Name: 'nsample' Code: NULL Docs: 
+    Name: 'compile' Code: NULL Docs: 
+
+* checking Rd \usage sections ... WARNING
+Bad \usage lines found in documentation object 'problem2':
+  data{problem2}
+
+Functions with \usage entries need to have the appropriate \alias
+entries, and all their arguments documented.
+The \usage entries must correspond to syntactically valid R code.
+See the chapter 'Writing R documentation files' in the 'Writing R
+Extensions' manual.
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of 'data' directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... OK
+* checking examples ... ERROR
+Running examples in 'my1rpack-Ex.R' failed
+The error most likely occurred in:
+
+> ### Name: problem1
+> ### Title: Solution to Problem 1
+> ### Aliases: problem1
+> ### Keywords: ~kwd1 ~kwd2
+> 
+> ### ** Examples
+> 
+> problem1('demo',c(-5,5), 100, T)
+Error in problem1("demo", c(-5, 5), 100, T) : 
+  could not find function "tikz"
+Execution halted
