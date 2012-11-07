@@ -3,6 +3,7 @@ Type: Package
 Title: 550.400 HW2
 Version: 1.0
 Date: 2012-10-24
+Depends: tikzDevice
 Author: Joyce Tan 
 Maintainer: Joyce Tan <jtan21@jhu.edu>
 Description: Homework 2

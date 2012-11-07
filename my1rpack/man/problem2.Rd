@@ -5,7 +5,7 @@
 \description{
 The IOC has provided a table of previous winners by year, discipline, gender and country, from 1924 t0 2006}
 \usage{
-data{problem2}
+problem2
 }
 \format{
   A list-mode object with 0 slots each of which contains the overall Bronze, Gold, and Silver medal counts:
