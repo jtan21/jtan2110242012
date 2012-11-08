@@ -28,7 +28,6 @@ problem1(filename, fcnobj, LRrange, nsample, compile)
 \seealso{}
 \examples{
 problem1('demo',dnorm, c(-5,5), 100, TRUE)
-problem1('pois',dpois,c(0,20), 300, TRUE)
 
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the

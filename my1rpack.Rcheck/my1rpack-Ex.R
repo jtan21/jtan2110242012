@@ -18,8 +18,7 @@ flush(stderr()); flush(stdout())
 
 ### ** Examples
 
-problem1('demo',dnorm, c(-5,5), 100, T)
-problem1('pois',dpois,c(0,20), 300, T)
+problem1('demo',dnorm, c(-5,5), 100, TRUE)
 
 
 
